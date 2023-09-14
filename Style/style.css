@@ -1,9 +1,12 @@
 .navigation {
     display: flex;
-   flex-direction: column;
+   background-color: antiquewhite;
+  
 }
 
 .img {
+    display: flex;
+    flex-direction: column;
     justify-content:left;
     width: 200px;
     height: 100%;
@@ -12,6 +15,8 @@
 }
 
 .img2 {
+    display: flex;
+    flex-direction: column;
     justify-content: left;
     width: 250px;
     height: 100%;
@@ -20,11 +25,16 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-binyamin-mellish-106399.jpg");
-    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/pexels-binyamin-mellish-106399.jpg");
+    height: 100%;
+    width: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
+    background-attachment: fixed;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 
   }
   
@@ -41,11 +51,14 @@ body {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 10px 25px;
+    margin: 5px;
+    padding: 15px 50px;
     color: black;
     background-color: #ddd;
     text-align: center;
     cursor: pointer;
+    border-radius: 8px;
+    font-size: 14pt;
   }
   
   .hero-text button:hover {
@@ -53,5 +66,11 @@ body {
     color: white;
   }
 
+  .section {
+    display: grid;
+    background-color: antiquewhite;
+    max-width: 100%;
+
+  }
   
 
